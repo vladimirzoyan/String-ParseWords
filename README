@@ -1,0 +1,10 @@
+String::ParseWords is designed to parse logical words from a
+string. Logical words are defined as sets of characters between
+double quotes or sets of characters between whitespace.
+
+One practical use for this module is to break apart group names
+for authorization within apache 'require' directives.
+
+See ParseWords.pm pod for detailed documentation.
+
+$Id: README,v 1.1 2000/09/11 22:13:08 cgilmore Exp $

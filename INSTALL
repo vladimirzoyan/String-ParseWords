@@ -1,0 +1,47 @@
+$Id: INSTALL,v 1.1 2000/09/11 22:12:59 cgilmore Exp $
+
+=head1 NAME
+
+INSTALL - String::ParseWords installation instructions
+
+=head1 DESCRIPTION
+
+How to build, test, configure and install String::ParseWords.pm
+
+=head1 PREREQUISITES
+
+=over 3
+
+=back
+
+=head1 Build and install GeoPlex.pm
+
+=over 3
+
+In this current directory run:
+
+  perl Makefile.PL
+  make
+  make test (optional)  
+  make install
+
+=back
+
+=head1 Testing String::ParseWords.pm
+
+=over 3
+
+Running 'make test' will run regression tests.
+
+=back
+
+=head1 Notes
+
+=over 3
+
+=back
+ 
+=head1 Support
+
+See the SUPPORT file.
+

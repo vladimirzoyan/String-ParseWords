@@ -1,0 +1,15 @@
+$Id: README,v 1.1 2000/09/11 22:14:08 cgilmore Exp $
+
+Self test suite for the ParseWords module
+-----------------------------------------
+
+Tests are invoked by running the ./TEST script, but usually you
+run the tests with "make test" at the top directory.  Use -v
+option for verbose tests.  You might run an individual test like
+this:
+
+  ./TEST -v base/standard
+
+or all tests in a directory like this
+
+  ./TEST base
